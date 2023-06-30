@@ -1,0 +1,47 @@
+.container .head-title .badge {
+    background: #212529;
+}
+
+#works-socmed .row .col-lg-4{
+    display:flex;
+    justify-content: center;
+}
+
+#works-socmed .row .col-lg-4 .aestheskin {
+    background-image: url('img/aestheskin.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-socmed .row .col-lg-4 .caffe-in {
+    background-image: url('img/caffe-in.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-socmed .row .col-lg-4 .denne-style {
+    background-image: url('img/denne-style.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-socmed .row .col-lg-4 .image-overlay {
+    opacity:0%;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0,0,0,0.4);
+    transition:0.5s ease;
+}
+
+#works-socmed .row .col-lg-4 .image-overlay:hover {
+    opacity:100%;
+}

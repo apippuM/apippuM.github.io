@@ -1,0 +1,178 @@
+/* Logo Section */
+
+#works-logo .d-flex .sushidrift {
+    background-image: url('img/sushidrift.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-logo .d-flex .helloburger {
+    background-image: url('img/helloburger.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-logo .d-flex .unlired {
+    background-image: url('img/unlimitedred.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-logo .d-flex .centana {
+    background-image: url('img/Centana.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-logo .d-flex .butbetter {
+    background-image: url('img/butbetter.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-logo .d-flex .image-overlay {
+    opacity:0%;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0,0,0,0.4);
+    transition:0.5s ease;
+}
+
+#works-logo .d-flex .image-overlay:hover {
+    opacity:100%;
+}
+
+/* Website Section */
+
+#works-website .row .col-lg-6 .italian-food {
+    background-image: url('img/italian-food-web.jpg');
+    background-position: center;
+    background-size:cover;
+    width:100%;
+    height:300px;
+}
+
+#works-website .row .col-lg-6 .yoga {
+    background-image: url('img/yoga-web.jpg');
+    background-position: center;
+    background-size:cover;
+    width:100%;
+    height:300px;
+}
+
+#works-website .row .col-lg-6 .travelto {
+    background-image: url('img//travelto-web.jpg');
+    background-position: center;
+    background-size:cover;
+    width:100%;
+    height:300px;
+}
+
+#works-website .row .col-lg-6 .louvre {
+    background-image: url('img/louvre-creative-web.jpg');
+    background-position: center;
+    background-size:cover;
+    width:100%;
+    height:300px;
+}
+
+#works-website .row .col-lg-6 .italianyellow {
+    background-image: url('img/italianyellow-web.jpg');
+    background-position: center;
+    background-size:cover;
+    width:100%;
+    height:300px;
+}
+
+#works-website .row .col-lg-6 .vrit {
+    background-image: url('img/vrit-web.jpg');
+    background-position: center;
+    background-size:cover;
+    width:100%;
+    height:300px;
+}
+
+#works-website .row .col-lg-6 .image-overlay {
+    opacity:0%;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0,0,0,0.4);
+    transition:0.5s ease;
+}
+
+#works-website .row .col-lg-6 .image-overlay:hover {
+    opacity:100%;
+}
+
+/* Socmed Section */
+
+#works-socmed .d-flex .aestheskin {
+    background-image: url('img/aestheskin.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-socmed .d-flex .caffe-in {
+    background-image: url('img/caffe-in.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-socmed .d-flex .denne-style {
+    background-image: url('img/denne-style.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-socmed .d-flex .lazzu {
+    background-image: url('img/Lazzu.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-socmed .d-flex .travelside {
+    background-image: url('img/travelside.jpg');
+    background-position: left;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-socmed .d-flex .image-overlay {
+    opacity:0%;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0,0,0,0.4);
+    transition:0.5s ease;
+}
+
+#works-socmed .d-flex .image-overlay:hover {
+    opacity:100%;
+}

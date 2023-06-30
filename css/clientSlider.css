@@ -1,0 +1,28 @@
+.slider {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.logos {
+  animation: slide 15s linear infinite;
+  display: inline-block;
+  transition:animation-play-state;
+  transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.slider:hover .logos {
+  animation-play-state:paused;
+}
+
+.logos img {
+  margin: 0 40px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

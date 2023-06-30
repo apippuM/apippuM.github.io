@@ -1,0 +1,59 @@
+.carousel-indicators .active {
+    background: white !important;
+}
+
+#carousel-logo .carousel-indicators button {
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   border: 1px solid white;
+   background: transparent;
+}
+
+.container .head-title .badge {
+    background: #212529;
+}
+
+#works-logo .row .col-lg-4{
+    display:flex;
+    justify-content: center;
+}
+
+#works-logo .row .col-lg-4 .sushidrift {
+    background-image: url('img/sushidrift.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-logo .row .col-lg-4 .helloburger {
+    background-image: url('img/helloburger.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-logo .row .col-lg-4 .unlired {
+    background-image: url('img/unlimitedred.jpg');
+    background-position: center;
+    background-size:cover;
+    width:400px;
+    height:400px;
+}
+
+#works-logo .row .col-lg-4 .image-overlay {
+    opacity:0%;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0,0,0,0.4);
+    transition:0.5s ease;
+}
+
+#works-logo .row .col-lg-4 .image-overlay:hover {
+    opacity:100%;
+}
